@@ -1,17 +1,25 @@
 .divEtiqueta {
-    background-color: blueviolet;
+    background-color: darkmagenta;
     min-height: 100vh;
     padding: 20px;
 
     form{
-        width: 400px;
+        width: 850px;
         margin: 0px auto;
         color: white;
+        display: flex;
+        
+        span {
+            color: red;
+            font-weight: bold;
+        }
     }
-
+    
     fieldset {
+        width: 400px;
         padding: 20px;
         margin-bottom: 20px;
+        margin: 50px;
     }
 
     legend {
